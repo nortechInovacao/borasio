@@ -1,0 +1,12 @@
+@import url("https://unpkg.com/leaflet/dist/leaflet.css");
+@import url("https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css");
+@import "tailwindcss";
+
+/* Opcional: fonte custom com variável */
+:root {
+  --font-poppins: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--font-poppins);
+}
