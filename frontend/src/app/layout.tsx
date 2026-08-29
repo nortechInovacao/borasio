@@ -4,6 +4,7 @@ import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import ChatFlutuante from '@/app/components/ChatFlutuante';
 import Acessibilidade from '@/app/components/Acessibilidade';
+import VLibras from '@/app/components/VLibras';
 const poppins = Poppins({ 
   subsets: ['latin'], 
   weight: ['400', '600', '700'], 
@@ -32,6 +33,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         {/* Componentes flutuantes / de acessibilidade */}
         <ChatFlutuante />
         <Acessibilidade />
+        <VLibras />
         <Footer />
       </body>
     </html>
